@@ -18,3 +18,29 @@ a{
     color: white;
     font-weight: bolder;
 }
+
+h1{
+    text-align: center;
+    margin: 5%;
+}
+
+#div_pres_intro{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 8% 15%;
+}
+
+#div_pres_intro img{
+    width: 38%;
+    border: 2px solid black;
+}
+
+#div_pres_intro div{
+    width: 55%;
+}
+
+#div_pres_intro p{
+    margin-left: 5%;
+    text-align: justify;
+}
