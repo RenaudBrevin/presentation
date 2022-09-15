@@ -1,6 +1,27 @@
+@font-face{
+    font-family: "Reem Kufi Ink";
+    src: url("font\ReemKufiInk-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "Anton";
+    src: url("font\Anton-Regular.ttf") format("truetype");
+}
+
+
 body{
     padding: 0;
     margin: 0;
+    background: url(img/TextureBackground.png), #ffbc6f;
+    background-attachment: fixed;
+}
+
+*{
+    font-family: "Reem Kufi Ink", serif;
+}
+
+h1, h2, h3{
+    font-family: "Anton", serif;
 }
 
 nav{
@@ -37,10 +58,19 @@ h1{
 }
 
 #div_pres_intro div{
-    width: 55%;
+    width: 54%;
 }
 
 #div_pres_intro p{
-    margin-left: 5%;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin: auto 3% 7% 5%;
     text-align: justify;
+}
+
+hr{
+    margin-right: 25%;
+    margin-left: 4%;
+    height: 1px;
+    background-color: black;
 }
