@@ -1,0 +1,63 @@
+*{
+    font-family: Roboto;
+    font-weight: 500;
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(63, 63, 63);
+    border-radius: 0 0 18px 18px;
+    text-align: center;
+    padding: 2% 30% 2% 30%;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.cerveaux{
+    display: flex;
+    flex-direction: column;
+    
+}
+.tete{
+    
+}
+.mainpres{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#box{
+    border-radius: 25px;
+    border: solid grey 2px;
+
+}
+.press{
+    width: 40%;
+    height: 100%;
+}
+.imgPP{
+    width: 50%;
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
+.PP{
+    margin-left: 20%;
+}
+.liste{
+    list-style-type: none;
+
+}
