@@ -21,7 +21,7 @@ body{
 }
 
 h1, h2, h3{
-    font-family: "Anton", serif;
+    font-family: "Anton", serif;  /* fonctionne pas */
 }
 
 nav{
@@ -71,24 +71,41 @@ h1{
     margin: auto 3% 7% 5%;
 }
 
+#div_pres_projet{
+    flex-direction: column;
+}
+
+#div_pres_projet p{
+    margin: auto 5% 3% 5%;
+}
 
 #div_pres_projet img{
-    width: 90%;
+    width: 72%;
 }
 
 #div_visuel_projet{
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    justify-content: space-between;
+    height: 75vw;
 }
 
 
-
-hr{
+#div_pres_intro hr{
     margin-right: 25%;
     margin-left: 4%;
-    height: 1px;
+    height: 2px;
     background-color: black;
+    border: none;
 }
 
+#div_pres_projet hr{
+    width: 70%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    /* margin-left: 4%; */
+    height: 2px;
+    background-color: black;
+    border: none;
+}
