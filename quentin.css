@@ -34,6 +34,7 @@ nav{
 }
 
 a{
+    position: relative;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -108,4 +109,26 @@ h1{
     height: 2px;
     background-color: black;
     border: none;
+}
+
+
+
+/* Animation nav bar */
+
+nav a:after {
+    border-radius: 10px;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0%;
+    left: 0px;
+    bottom: -6px;
+    height: 4px;
+    transition: 0.2s;
+    background: #ffffff;
+}
+
+
+nav a:hover:after {
+    width: 100%;
 }
