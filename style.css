@@ -35,7 +35,63 @@ a{
 #hr1{
     margin-top: 50px;
     width: 1050px;
-    background-color: rgb(0, 0, 0);
+}
+
+.titrepres{
+    font-size: 70px;
+}
+
+#hr2{
+    width: 400px;
+}
+
+#titreillu{
+    font-size: 60px;
+}
+
+#texteillu{
+    font-size: 40px;
+}
+
+.imgilu{
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+}
+
+#hr3{
+    margin-top: 50px;
+    width: 400px;
+}
+
+#titreop{
+    font-size: 60px;
+}
+
+#textop{
+    font-size: 40px;
+}
+
+#hr4{
+    width: 400px;
+    margin-top: 50px;
+}
+
+#titregtarp{
+    font-size: 60px;
+}
+
+#textgtarp{
+    font-size: 60px;
+}
+
+.imggtarp img{
+    height: 340px;
+}
+
+#hr5{
+    width: 400px;
+    margin-top: 50px;
 }
 
 #titrejeu{
