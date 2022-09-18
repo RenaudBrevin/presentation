@@ -132,3 +132,45 @@ nav a:after {
 nav a:hover:after {
     width: 100%;
 }
+
+
+
+@media all and (max-width: 768px){
+    nav{
+        padding: 0;
+        height: 15vw;
+    }
+
+    a{
+        font-size: 14px;
+        margin: auto;
+    }
+
+    #div_pres_intro{
+        flex-direction: column-reverse;
+        align-items: center
+    }
+
+    #div_pres_intro div {
+        width: auto;
+    }
+
+    #div_pres_intro img {
+        margin-top: 5%;
+        width: 80%;
+    }
+
+
+    #div_pres_projet img {
+        width: 100%;
+    }
+
+    #div_visuel_projet{
+        height: 130vw;
+        margin: 5% auto;
+    }
+
+    #div_pres_intro, #div_pres_projet{
+        margin: 8% 8%;
+    }
+}
