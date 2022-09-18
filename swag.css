@@ -28,9 +28,7 @@ a{
     flex-direction: column;
     
 }
-.tete{
-    
-}
+
 .mainpres{
     display: flex;
     flex-direction: row-reverse;
