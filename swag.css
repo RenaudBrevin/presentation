@@ -42,7 +42,7 @@ a{
 
 #box{
     border-radius: 25px;
-    border: solid grey 4px;
+    border: solid grey 1px;
     background-color: white;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.299);
     
@@ -54,19 +54,14 @@ a{
 
 }
 
-.imgPP{
-    width: 50%;
-    height: 100%;
-}
+
 h1{
     text-align: center;
     font-size: 250%;
-    padding: 5%;
     color: white;
 }
-.PP{
-    margin-left: 20%;
-}
+
+
 .liste{
     list-style-type: none;
     padding: 20px;
@@ -76,7 +71,7 @@ h3{
     text-align: center;
 }
 .PP{
-    border: solid grey 4px;
+    border: solid grey 1px;
     border-radius: 25px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.299);
 }
@@ -102,9 +97,7 @@ h3{
     align-items: flex-start;
     
 }
-.Link{
-    
-}
+
 .remerciement{
     font-size: 28px;
     color: white;
@@ -112,4 +105,35 @@ h3{
 h2{
     text-align: center;
     color:  white;
+}
+.Git{
+    width: 60px;
+    height: 60px;
+    filter: opacity(0.4) drop-shadow(white);
+
+}
+.Disc{
+    width: 60px;
+    height: 60px;
+
+}
+.Link{
+    width: 60px;
+    height: 60px;
+
+}
+@media only screen and (max-width: 1110px) {
+    .mainpres {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 80px;
+        align-content: stretch;
+        justify-content: center;
+    }
+    .press{
+        width: 100%;
+        height: 100%;
+    }
+
 }
