@@ -38,7 +38,7 @@ a{
 
 #box{
     border-radius: 25px;
-    border: solid grey 2px;
+    border: solid grey 7px;
 
 }
 .press{
@@ -58,4 +58,10 @@ h1{
 .liste{
     list-style-type: none;
 
+}
+h3{
+    text-align: center;
+}
+.PP{
+    border: solid grey 7px;
 }
