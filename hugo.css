@@ -61,4 +61,11 @@ main{
     margin-left: 50px;
     margin-right: 50px;
 }
+#StarWars{
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 18px 18px 18px 18px;
+}
+
 
