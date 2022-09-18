@@ -12,7 +12,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(44, 59, 100);
     border-radius: 0 0 18px 18px;
     text-align: center;
     padding: 2% 30% 2% 30%;
@@ -43,7 +43,7 @@ a{
 #box{
     border-radius: 25px;
     border: solid grey 1px;
-    background-color: white;
+    background-color: #e0e0e080;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.299);
     
 
@@ -81,7 +81,7 @@ h3{
 
 }
 .pied{
-    background-color:  rgb(63, 63, 63);
+    background-color:  rgb(44, 59, 100);
     padding-bottom: 5%;
     
 }
