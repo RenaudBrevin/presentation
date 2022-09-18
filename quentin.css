@@ -30,7 +30,7 @@ nav{
     background-color: rgb(63, 63, 63);
     border-radius: 0 0 18px 18px;
     text-align: center;
-    padding: 2% 30% 2% 30%;
+    padding: 2% 20% 2% 20%;
 }
 
 a{
@@ -54,9 +54,9 @@ h1{
 
 #div_pres_intro, #div_pres_projet{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
-    margin: 8% 15%;
+    margin: 6% 15%;
 }
 
 #div_pres_intro img{
@@ -133,7 +133,7 @@ nav a:hover:after {
     width: 100%;
 }
 
-
+/* Responsive */
 
 @media all and (max-width: 768px){
     nav{
