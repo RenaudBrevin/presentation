@@ -1,0 +1,176 @@
+@font-face{
+    font-family: "Reem Kufi Ink";
+    src: url("font\ReemKufiInk-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "Anton";
+    src: url("font\Anton-Regular.ttf") format("truetype");
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background: url(img/TextureBackground.png), #ffbc6f;
+    background-attachment: fixed;
+}
+
+*{
+    font-family: "Reem Kufi Ink", serif;
+}
+
+h1, h2, h3{
+    font-family: "Anton", serif;  /* fonctionne pas */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(63, 63, 63);
+    border-radius: 0 0 18px 18px;
+    text-align: center;
+    padding: 2% 20% 2% 20%;
+}
+
+a{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+p{
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    margin: 5%;
+}
+
+#div_pres_intro, #div_pres_projet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6% 15%;
+}
+
+#div_pres_intro img{
+    width: 38%;
+    border: 2px solid black;
+}
+
+#div_pres_intro div{
+    width: 54%;
+}
+
+#div_pres_intro p{
+    margin: auto 3% 7% 5%;
+}
+
+#div_pres_projet{
+    flex-direction: column;
+}
+
+#div_pres_projet p{
+    margin: auto 5% 3% 5%;
+}
+
+#div_pres_projet img{
+    width: 72%;
+}
+
+#div_visuel_projet{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 75vw;
+}
+
+
+#div_pres_intro hr{
+    margin-right: 25%;
+    margin-left: 4%;
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+#div_pres_projet hr{
+    width: 70%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    /* margin-left: 4%; */
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+
+
+/* Animation nav bar */
+
+nav a:after {
+    border-radius: 10px;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0%;
+    left: 0px;
+    bottom: -6px;
+    height: 4px;
+    transition: 0.2s;
+    background: #ffffff;
+}
+
+
+nav a:hover:after {
+    width: 100%;
+}
+
+/* Responsive */
+
+@media all and (max-width: 768px){
+    nav{
+        padding: 0;
+        height: 15vw;
+    }
+
+    a{
+        font-size: 14px;
+        margin: auto;
+    }
+
+    #div_pres_intro{
+        flex-direction: column-reverse;
+        align-items: center
+    }
+
+    #div_pres_intro div {
+        width: auto;
+    }
+
+    #div_pres_intro img {
+        margin-top: 5%;
+        width: 80%;
+    }
+
+
+    #div_pres_projet img {
+        width: 100%;
+    }
+
+    #div_visuel_projet{
+        height: 130vw;
+        margin: 5% auto;
+    }
+
+    #div_pres_intro, #div_pres_projet{
+        margin: 8% 8%;
+    }
+}
