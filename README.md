@@ -1,7 +1,7 @@
-<h1>Présentation du projet :<h1>
+<h1>Présentation du projet :</h1>
 
 <p>Site internet réalisé dans le cadre d'un cours sur git et github.
-Apprentissage de l'utilisation de commandes dans le terminal, l'utilisation de branches et le travail en équipe sur un même site.<p>
+Apprentissage de l'utilisation de commandes dans le terminal, l'utilisation de branches et le travail en équipe sur un même site.</p>
 
 <h2>Répartition du travail</h2>
 <ul>
