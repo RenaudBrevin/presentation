@@ -27,7 +27,7 @@ a{
 .cerveaux{
     display: flex;
     flex-direction: column;
-    background-image: url(../presentation/image/Carrefour.webp);
+    background-image: url(../presentation/img/Carrefour.webp);
     backdrop-filter: blur(4.5px);
     
 }
