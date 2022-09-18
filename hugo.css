@@ -22,6 +22,12 @@ a{
 h2{
     color: black;
 }
+header{
+    background-color: ivory;
+}
+main{
+    background-color: ivory;
+}
 #photoHugo{
     width: 30%;
     margin-top: 25px;
@@ -29,19 +35,30 @@ h2{
 }
 #morainvilliers{
     width: 30%;
-    margin-top: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     border-radius: 18px 18px 18px 18px;
 }
 #logoIIM{
     width: 10%;
-    margin-top: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     border-radius: 18px 18px 18px 18px;
 }
 #StarWars{
     width: 50%;
-    margin-top: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     border-radius: 18px 18px 18px 18px;
 }
-#HugoBG{
+.HugoBG{
     text-align: center;
 }
+.prese{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
