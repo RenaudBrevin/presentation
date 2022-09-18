@@ -44,13 +44,17 @@ a{
 .press{
     width: 40%;
     height: 100%;
+
 }
+
 .imgPP{
     width: 50%;
     height: 100%;
 }
 h1{
     text-align: center;
+    font-size: 250%;
+    padding: 5%;
 }
 .PP{
     margin-left: 20%;
@@ -64,4 +68,14 @@ h3{
 }
 .PP{
     border: solid grey 7px;
+    border-radius: 25px;
+}
+.hov:hover{
+    font-size: 150%;
+    opacity:    75%;
+
+}
+.pied{
+    background-color: grey;
+    padding-bottom: 200%;
 }
