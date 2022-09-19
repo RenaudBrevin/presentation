@@ -1,0 +1,89 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(63, 63, 63);
+    border-radius: 0 0 18px 18px;
+    text-align: center;
+    padding: 2% 30% 2% 30%;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+h2{
+    color: black;
+}
+header{
+    background-color: ivory;
+}
+main{
+    background-color: ivory;
+}
+#photoHugo{
+    width: 30%;
+    margin-top: 25px;
+    border-radius: 18px 18px 18px 18px;
+}
+#morainvilliers{
+    width: 30%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 18px 18px 18px 18px;
+}
+#logoIIM{
+    width: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 18px 18px 18px 18px;
+}
+#StarWars{
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 18px 18px 18px 18px;
+}
+.HugoBG{
+    text-align: center;
+}
+.prese{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#parc{
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 18px 18px 18px 18px;
+}
+#LosAngeles{
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 18px 18px 18px 18px;
+}
+#NY{
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 18px 18px 18px 18px;
+}
+#LasVegas{
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 18px 18px 18px 18px;
+}
+
+
